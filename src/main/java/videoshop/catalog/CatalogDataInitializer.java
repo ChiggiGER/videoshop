@@ -87,5 +87,20 @@ class CatalogDataInitializer implements DataInitializer {
 		videoCatalog.save(new Disc("Oldboy", "old", Money.of(24.99, EURO), "Action/Drama/Thriller", DiscType.BLURAY));
 		videoCatalog.save(new Disc("Bill & Ted's Excellent Adventure", "bt", Money.of(29.99, EURO),
 				"Adventure/Comedy/Family", DiscType.BLURAY));
+		// Chiggis BlueRay
+		videoCatalog.save(new Disc("Banana Joe", "bananaJoe", Money.of(10000000.00, EURO), "Äcktschn/ Komädi", DiscType.BLURAY));
+
+		// CD Kategorie
+		videoCatalog.save(new Disc("The Dark Side of the Moon", "darkside", Money.of(14.99, EURO), "Progressive Rock", DiscType.CD));
+		videoCatalog.save(new Disc("Abbey Road", "abbeyroad", Money.of(13.49, EURO), "Rock", DiscType.CD));
+		videoCatalog.save(new Disc("Thriller", "thriller", Money.of(16.99, EURO), "Pop", DiscType.CD));
+		videoCatalog.save(new Disc("Rumours", "rumours", Money.of(12.99, EURO), "Soft Rock", DiscType.CD));
+		videoCatalog.save(new Disc("Nevermind", "nevermind", Money.of(14.49, EURO), "Grunge", DiscType.CD));
+		videoCatalog.save(new Disc("Hotel California", "hotelcalifornia", Money.of(13.99, EURO), "Rock", DiscType.CD));
+		videoCatalog.save(new Disc("Led Zeppelin IV", "lziv", Money.of(15.49, EURO), "Hard Rock", DiscType.CD));
+		videoCatalog.save(new Disc("1989", "1989", Money.of(11.99, EURO), "Pop", DiscType.CD));
+		videoCatalog.save(new Disc("American Idiot", "americanidiot", Money.of(13.79, EURO), "Punk Rock", DiscType.CD));
+		videoCatalog.save(new Disc("Live at Wembley Stadium", "wembley2003", Money.of(17.99, EURO), "Rock", DiscType.DVD));
+
 	}
 }

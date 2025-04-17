@@ -1,7 +1,8 @@
 header {
 	width:100%;
-	height: 200px;
-	background-image: url(../img/cds.jpg);
+	height: 500px;
+	background-image: url(../img/shrek-dance.gif);
+	background-size: cover;
 	background-repeat: no-repeat;
 	font-size: 20px;
 	margin-top: 1em;
@@ -11,6 +12,30 @@ input.fieldError {
     border-color:red !important;
     box-shadow:0 0 10px red !important;
 }
+
+body {
+	color: azure;
+	background-image: url("../img/shrek-gif-3.gif");
+}
+
+.ui.items .item .header {
+	color: deeppink !important;
+}
+
+span {
+	color: deeppink;
+}
+p {
+	color: deeppink;
+}
+div.field label{
+	color: azure !important;
+}
+
+h3 {
+	color: azure !important;
+}
+
 
 img.thumbnail {
     margin: 0 auto 0 auto;
